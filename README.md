@@ -1,16 +1,76 @@
-# React + Vite
+# Portal Acadêmico Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma web desenvolvida para gestão de processos acadêmicos internos, voltada à organização operacional, estruturação de fluxos institucionais e centralização de informações.
 
-Currently, two official plugins are available:
+O sistema foi desenvolvido com foco em escalabilidade, organização da informação e experiência operacional, contemplando formulários específicos por processo, regras de negócio e histórico de alterações.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivo
 
-## React Compiler
+Organizar e otimizar processos acadêmicos internos por meio de uma plataforma centralizada, reduzindo controles dispersos e melhorando a gestão operacional institucional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Cadastro e gerenciamento de processos acadêmicos
+- Formulários específicos por fluxo operacional
+- Histórico de alterações
+- Organização por semestre
+- Estruturação de regras de negócio
+- Relação consolidada de registros
+- Exportação de informações
+- Arquitetura preparada para futuras evoluções de controle de acesso e permissões
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Processos contemplados
+
+- REA
+- DPE
+- RAC
+- DES
+- TRT
+- TRX
+- PDD
+- ICH
+
+## Tecnologias utilizadas
+
+### Front-end
+
+- React
+- TypeScript
+- Tailwind CSS
+
+### Estrutura e organização
+
+- Organização de processos
+- Estruturação de fluxos
+- Regras de negócio
+- Arquitetura de informação
+
+## Futuras evoluções (Fase 2)
+
+- Permissões por perfil
+- Controle de acesso institucional
+- Níveis de usuário
+- Integração com SharePoint
+- Auditoria operacional avançada
+
+## Aprendizados desenvolvidos
+
+Este projeto contribuiu para evolução prática em:
+
+- Organização de sistemas
+- Estruturação operacional
+- Modelagem de fluxos
+- UX aplicada a sistemas internos
+- Desenvolvimento Front-end
+- Estruturação de regras de negócio
+- Organização da informação
+
+## Demonstração
+
+🔗 Aplicação: (adicionar Vercel)
+
+🔗 GitHub: (adicionar repositório)
+
+---
+
+Desenvolvido por Fernando S. Santos
