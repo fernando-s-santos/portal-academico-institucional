@@ -67,7 +67,7 @@ Este projeto contribuiu para evolução prática em:
 
 ## Demonstração
 
-🔗 Aplicação: portal-academico-institucional.vercel.app
+🔗 Aplicação: https://portal-academico-institucional.vercel.app/
 
 🔗 GitHub: https://github.com/Fernando-S-Santos/portal-academico-institucional
 
