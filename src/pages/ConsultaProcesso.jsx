@@ -26,11 +26,15 @@ export default function ConsultaProcesso({
       const mesmoSemestre = semestre === "Todos" || ficha.semestre === semestre;
       const mesmoStatus = status === "Todos" || ficha.status === status;
 
+      const termoBusca = busca.toLowerCase();
+
       const bateBusca =
-        ficha.aluno.toLowerCase().includes(busca.toLowerCase()) ||
-        ficha.idAluno?.toLowerCase().includes(busca.toLowerCase()) ||
-        ficha.processo.toLowerCase().includes(busca.toLowerCase()) ||
-        ficha.curso.toLowerCase().includes(busca.toLowerCase());
+        (ficha.aluno || "").toLowerCase().includes(termoBusca) ||
+        (ficha.idAluno || "").toLowerCase().includes(termoBusca) ||
+        (ficha.processo || "").toLowerCase().includes(termoBusca) ||
+        (ficha.curso || "").toLowerCase().includes(termoBusca) ||
+        (ficha.disciplina || "").toLowerCase().includes(termoBusca) ||
+        (ficha.docente || "").toLowerCase().includes(termoBusca);
 
       return mesmoProcesso && mesmoSemestre && mesmoStatus && bateBusca;
     });
